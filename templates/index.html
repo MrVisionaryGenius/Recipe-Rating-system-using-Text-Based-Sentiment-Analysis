@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Recipe Rating System</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+	</head>
+	<body>
+		
+		<div class="page-wrap">
+
+			<!-- Main -->
+				<section id="main">
+					<div class="scroll-up-btn">
+						<i class="fas fa-angle-up"></i>
+					</div>
+					<nav class="navbar">
+						<div class="max-width">
+							<div class="logo"><a href="#">RE <span>System</span></a></div>
+							<ul class="menu">
+								<li><a href="#home" class="menu-btn">Home</a></li>
+								<li><a href="#about" class="menu-btn">About</a></li>
+								<li><a href="#services" class="menu-btn">Services</a></li>
+								<li><a href="#skills" class="menu-btn">Skills</a></li>
+								<li><a href="#teams" class="menu-btn">Teams</a></li>
+								<li><a href="#contact" class="menu-btn">Contact</a></li>
+							</ul>
+							<div class="menu-btn">
+								<i class="fas fa-bars"></i>
+							</div>
+						</div>
+					</nav>
+					<!-- Banner -->
+						<section id="banner" style="background-image: url(../static/banner.jpg)">
+							<div class="inner">
+								<h1>Welcome</h1>
+								<p>RECIPE RATING SYSTEM USING <b>TEXT BASED</b><br> SENTIMENT ANALYSIS</a></p>
+								<ul class="actions">
+									<li><a href="#galleries" class="button alt scrolly big">View Demo</a></li>
+								</ul>
+							</div>
+						</section>
+
+					<!-- Gallery -->
+						<section id="galleries">
+
+							<!-- Product Galleries -->
+								<div class="gallery"  >
+									<header class="special">
+										<h2>Our Recipes</h2>
+									</header>
+									<div class="content">
+										<div class="media">
+											<a href="{{ url_for('biryani') }}"><img src="{{ url_for('static', filename='images/01.jpg') }}" alt="Image" title="This right here is a caption." /></a>
+											<h3 id="mytext"> Biryani </h3>
+										</div>
+										<div class="media">
+											<a href="{{ url_for('paneer') }}"><img src="{{ url_for('static', filename='images/02.jpg') }}" alt="" title="This right here is a caption." /></a>
+											<h3 id="mytext">Paneer Tikka Masala</h3>
+										</div>
+										<div class="media">
+											<a href="{{ url_for('tea') }}"><img src="{{ url_for('static', filename='images/03.jpg') }}" alt="" title="This right here is a caption." /></a>
+											<h3 id="mytext">Turkish Tea</h3>
+										</div>
+										<div class="media">
+											<a href="{{ url_for('kunafa') }}"><img src="{{ url_for('static', filename='images/04.jpg') }}" alt="" title="This right here is a caption." /></a>
+											<h3 id="mytext">Kunafa</h3>
+										</div>
+										<div class="media">
+											<a href="{{ url_for('kebab') }}"><img src="{{ url_for('static', filename='images/05.jpg') }}" alt="" title="This right here is a caption." /></a>
+											<h3 id="mytext">Kebab</h3>
+										</div>
+										<div class="media">
+											<a href="{{ url_for('tawa') }}"><img src="{{ url_for('static', filename='images/06.jpg') }}" alt="" title="This right here is a caption." /></a>
+											<h3 id="mytext">Tawa Pizza</h3>
+										</div>
+										<div class="media">
+											<a href="{{ url_for('burger') }}"><img src="{{ url_for('static', filename='images/07.jpg') }}" alt="" title="This right here is a caption." /></a>
+											<h3 id="mytext">Veg Burger</h3>
+										</div>
+										<div class="media">
+											<a href="{{ url_for('burger') }}"><img src="{{ url_for('static', filename='images/07.jpg') }}" alt="" title="This right here is a caption." /></a>
+											<h3 id="mytext">Veg Burger</h3>
+										</div>
+										<div class="media">
+											<a href="{{ url_for('burger') }}"><img src="{{ url_for('static', filename='images/07.jpg') }}" alt="" title="This right here is a caption." /></a>
+											<h3 id="mytext">Veg Burger</h3>
+										</div>
+									</div>
+									<footer>
+										<a href="#" class="button big">More Products</a>
+									</footer>
+								</div>
+						</section>
+
+					<!-- Footer -->
+						<footer id="footer">
+							<div class="copyright">
+								&copy; Project Team : <b>Mohammed Saad | Khan Kutbuddin | Faiz Memon | </b>
+							</div>
+						</footer>
+				</section>
+		</div>
+
+		<!-- Scripts -->
+			<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/jquery.poptrox.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/jquery.scrolly.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/skel.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+	</body>
+</html>
