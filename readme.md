@@ -7,7 +7,7 @@ __This Project generates rating of a product in an e-commerce website by analyzi
 <p align="center"> <img src="https://github.com/xitish/Product-Rating/blob/master/static/aa.gif"></p>
 
 The system uses sequence learning methodology in order to achieve desired functionality. The reviews provided by the users about a product on an e-commerce website is analyzed and rating of that product is generated based on the review. This system leverages the power of machine learning to completely eradicates the trouble of giving rating as well as writing review and helps to predict accurate rating based on user reviews. <br><br>
-<a href="https://drive.google.com/file/d/15NL7WCjxYIbqRguM62V44d2FwRiwrv2X/view?usp=sharing" > Learn More </a>
+
 
 ## Installation
 The application runs on Python's __Flask__ micro  web framework. The following packages are required to be installed in order to run this application.
